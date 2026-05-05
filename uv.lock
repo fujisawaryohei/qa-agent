@@ -602,6 +602,7 @@ dependencies = [
     { name = "langchain" },
     { name = "langchain-anthropic" },
     { name = "langgraph" },
+    { name = "langgraph-checkpoint" },
     { name = "pygraphviz" },
 ]
 
@@ -611,6 +612,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=1.2.17" },
     { name = "langchain-anthropic", specifier = ">=1.4.3" },
     { name = "langgraph", specifier = ">=1.1.10" },
+    { name = "langgraph-checkpoint", specifier = ">=4.0.3" },
     { name = "pygraphviz", specifier = ">=1.14" },
 ]
 
